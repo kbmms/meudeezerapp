@@ -92,8 +92,8 @@ export default function Search(){
                 <Link href="/favoritos">
                     <a  className={styles.searchMainA}>Favoritos</a>
                 </Link>
-                    {/* <div>{loading && <span>Carregando...</span>}</div> */}
-                    <div><span>Carregando...</span></div>
+                    <div>{loading && <span>Carregando...</span>}</div>
+                   
                     <div>
                         {!loading &&
                          <div>
