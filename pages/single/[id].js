@@ -35,7 +35,7 @@ export default function MusicSingle(){
             }
            {!mysingle ? 
             (<div>Carregando...</div>):
-            (<div>
+            (<div className={styles.singleBox_down}>
                 {
                     !mysingle.error ? 
                     (<div>
