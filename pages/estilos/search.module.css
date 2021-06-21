@@ -1,0 +1,180 @@
+
+  .App {
+    /* background-color: #282c34; */
+    color: #fff;
+    
+  }
+  
+  .App  {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  
+  .App {
+    text-align: center;
+  }
+  
+
+  
+  .App{
+    /* background-color: #282c34; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    position: relative;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  
+  
+
+
+
+
+
+
+/* SEARCH */
+.bgRel {
+    position: relative;
+}
+.uiBackgroundBox{
+    width: 100%;
+    background-color: #171619;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    position: absolute;
+}
+.bg {
+    width: 100%;
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.search {
+    /* background-color: #282c34; */
+    /* min-height: 100vh; */
+    background-color: #282c34bf;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    position: relative;
+}
+.resultSearchCard {
+    display: flex;
+    border: 1px solid #3a3e46;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    /* background: #3c424e; */
+    background: #3c424e7a;
+    box-shadow: 0px 1px 2px #000;
+}
+.searchMainInput[type="text"] {
+    width: 500px;
+    padding: 19px;
+    border-radius: 10px;
+    background: #1b1e25;
+    margin: 15px;
+    outline: none;
+    font-size: 20px;
+    border: 3px solid #ff9800;
+    color: aliceblue;
+}
+
+.searchMainA {
+    font-size: 13px;
+    text-decoration: none;
+    color: #ffffff;
+    margin: 10px 0;
+    background: #ff9800;
+    padding: 8px 30px;
+    border-radius: 2px;
+
+}
+.btnFavorites {
+    background: #282c34;
+    color: #fff;
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.cardsSearchResult {
+    height: 600px;
+    overflow: scroll;
+}
+
+  .cardsSearchResult {
+    scrollbar-width: none; /* Firefox 64 */
+    -ms-overflow-style: none; /* Internet Explorer 11 */
+  }
+  .cardsSearchResult::-webkit-scrollbar { /** WebKit */
+    display: none;
+  }
+
+
+
+
+  /* FAVORITOS */
+  
+.favoritesMain {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    overflow: scroll;
+    height: 700px;
+}
+.favTitle {
+    color: #fff;
+}
+.favHeader {
+    text-align: center;
+}
+.favoritesMain::-webkit-scrollbar { /** WebKit */
+    display: none;
+  }
+.favoritesCard {
+    border: 9px solid #404040;
+    margin: 10px;
+    background-color: #2f3031;
+    width: 300px;
+    box-shadow: 0px 1px 2px #000;
+    text-align: center;
+    padding: 10px;
+
+}
+.favoritesCardImg {
+    width: 100%;
+}
+.favoritesCardH3{
+    color: #fff;
+    font-size: 20px;
+}
+.favoritesCardH4{
+    color: #fff;
+    font-size: 16px;
+}
+
+
+
+/* SINGLE */
+
+.singleBox{
+    text-align: center;
+    color: #fff;
+}
