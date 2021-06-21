@@ -18,7 +18,7 @@ export default function Favorites(){
         <div className={styles.favHeader}>
             <h1 className={styles.favTitle}>Favoritos</h1>
             <Link href="/" style={{color:"#fff", textDecoration:'none', fontSize:13}}>
-                <a>VOLTAR</a>
+                <a className={styles.searchMainA}>VOLTAR</a>
             </Link>
         </div>
         
