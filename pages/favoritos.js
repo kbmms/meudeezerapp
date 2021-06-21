@@ -24,7 +24,7 @@ export default function Favorites(){
         
         <div className={styles.favoritesMain}>
             {fav.length < 1 &&
-                <h1>Adicione suas múscias na página inicial</h1>
+                <h1 className={styles.favNoMusic}>Adicione suas múscias na página inicial</h1>
             }
            {fav.map((item)=>(
                <div className={styles.favoritesCard}>
