@@ -98,7 +98,7 @@
 
 .searchMainA {
     font-size: 13px;
-    margin: 10px;
+    margin: 10px 0;
     text-decoration: none;
     color: #ffffff;
     background: #ff9800;
@@ -187,7 +187,15 @@
     padding: 10px;
     display: flex;
     flex-direction: column;
+}
 
+.searchMainASingle {
+    font-size: 13px;
+    margin: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    background: #ff9800;
+    padding: 8px 30px;
+    border-radius: 2px;
 
-   
 }

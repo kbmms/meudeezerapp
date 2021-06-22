@@ -41,8 +41,8 @@ export default function MusicSingle(){
                     (<div className={styles.singleBox_down}>
                         <div>
 
-                        <Link href="/favoritos"><a className={styles.searchMainA}>Favoritos</a></Link> 
-                         <Link href="/"><a className={styles.searchMainA}>Inicio</a></Link>
+                        <Link href="/favoritos"><a className={styles.searchMainASingle}>Favoritos</a></Link> 
+                         <Link href="/"><a className={styles.searchMainASingle}>Inicio</a></Link>
                         </div>
                         <h1>{mysingle.album.title}</h1>
                         <img src={mysingle.album.cover_big} alt="" />
@@ -53,7 +53,7 @@ export default function MusicSingle(){
                     </div>):
                     (<div>
                         <h1>Houve um erro, tente novamente mais tarde!</h1>
-                        <Link href="/"><a className={styles.searchMainA}>Inicio</a></Link> <Link href="/favoritos"><a className={styles.searchMainA}>Favoritos</a></Link>
+                        <Link href="/"><a className={styles.searchMainASingle}>Inicio</a></Link> <Link href="/favoritos"><a className={styles.searchMainASingle}>Favoritos</a></Link>
                     </div>)
                 }
 
