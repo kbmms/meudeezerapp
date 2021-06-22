@@ -35,10 +35,10 @@ export default function MusicSingle(){
             }
            {!mysingle ? 
             (<div>Carregando...</div>):
-            (<div className={styles.singleBox_down}>
+            (<div>
                 {
                     !mysingle.error ? 
-                    (<div>
+                    (<div className={styles.singleBox_down}>
                         <div>
 
                         <Link href="/favoritos"><a className={styles.searchMainA}>Favoritos</a></Link> 
