@@ -1,21 +1,15 @@
-
   .App {
     /* background-color: #282c34; */
-    color: #fff;
-    
+    color: #fff;  
   }
   
   .App  {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
   }
-  
-  
   .App {
     text-align: center;
   }
-  
-
   
   .App{
     /* background-color: #282c34; */
@@ -28,18 +22,9 @@
     color: white;
     position: relative;
   }
-  
   .App-link {
     color: #61dafb;
   }
-  
-  
-  
-
-
-
-
-
 
 /* SEARCH */
 .bgRel {
@@ -61,8 +46,6 @@
     background-repeat: no-repeat;
 }
 .search {
-    /* background-color: #282c34; */
-    /* min-height: 100vh; */
     background-color: #282c34bf;
     align-items: center;
     justify-content: center;
@@ -128,18 +111,14 @@
     display: none;
   }
 
-
-
-
   /* FAVORITOS */
-  
 .favoritesMain {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     overflow: scroll;
-    height: 700px;
+    /* height: 700px; */
 }
 .favTitle {
     color: #fff;
@@ -177,18 +156,16 @@
 
 
 /* SINGLE */
-
 .singleBox{
     text-align: center;
     color: #fff;
 }
 .singleBox_down {
-
+    align-items: center;
     padding: 10px;
     display: flex;
     flex-direction: column;
 }
-
 .searchMainASingle {
     font-size: 13px;
     margin: 10px;
@@ -200,4 +177,7 @@
 }
 .playerSingle {
     margin: 0 auto;
+}
+.singleImg {
+    max-width: 400px;
 }

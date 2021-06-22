@@ -45,7 +45,7 @@ export default function MusicSingle(){
                          <Link href="/"><a className={styles.searchMainASingle}>Inicio</a></Link>
                         </div>
                         <h1>{mysingle.album.title}</h1>
-                        <img src={mysingle.album.cover_big} alt="" />
+                        <img className={styles.singleImg} src={mysingle.album.cover_big} alt="" />
                         <h4>{mysingle.title}</h4>
                         <ReactAudioPlayer className={styles.playerSingle} controls src={mysingle.preview} />
                         
