@@ -29,6 +29,7 @@
 /* SEARCH */
 .bgRel {
     position: relative;
+    width: 100%;
 }
 .uiBackgroundBox{
     width: 100%;
