@@ -79,7 +79,7 @@
     margin: 15px 0;
     outline: none;
     font-size: 20px;
-    border: 3px solid #ff9800;
+    border: 3px solid #352e54;
     color: aliceblue;
 }
 
@@ -88,7 +88,7 @@
     margin: 10px 0;
     text-decoration: none;
     color: #ffffff;
-    background: #ff9800;
+    background: #352e54;
     padding: 8px 30px;
     border-radius: 2px;
 
@@ -176,7 +176,7 @@
     margin: 10px;
     text-decoration: none;
     color: #ffffff;
-    background: #ff9800;
+    background: #352e54;
     padding: 8px 30px;
     border-radius: 2px;
 }
