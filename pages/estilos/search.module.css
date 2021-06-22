@@ -37,7 +37,7 @@
 .uiBackgroundBox{
     width: 100%;
     background-color: #171619;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
