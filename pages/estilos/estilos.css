@@ -8,4 +8,5 @@ body {
     -moz-osx-font-smoothing: grayscale;
     overflow: hidden;
     background-image: url('https://cdn.wallpapersafari.com/65/36/LsRdWj.jpg');
+    background-size: cover;
   }
