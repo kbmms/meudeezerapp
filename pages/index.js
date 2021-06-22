@@ -88,7 +88,7 @@ export default function Search(){
              <div className={styles.uiBackgroundBox} style={{backgroundImage: `url("${bg}")` }}>  </div>
            }
             <div className={styles.search}>
-                <h1>New ReactJs Deezer App</h1>
+                <h1 className={styles.titleLogoApp}>New ReactJs Deezer App</h1>
                 <Link href="/favoritos">
                     <a  className={styles.searchMainA}>Favoritos</a>
                 </Link>

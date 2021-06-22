@@ -27,6 +27,9 @@
   }
 
 /* SEARCH */
+.titleLogoApp {
+    font-size: 14px;
+}
 .bgRel {
     position: relative;
     width: 100%;
