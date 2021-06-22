@@ -118,13 +118,14 @@
     flex-direction: row;
     justify-content: center;
     overflow: scroll;
-    /* height: 700px; */
+    height: 700px;
 }
 .favTitle {
     color: #fff;
 }
 .favHeader {
     text-align: center;
+    margin: 15px;
 }
 .favoritesMain::-webkit-scrollbar { /** WebKit */
     display: none;
