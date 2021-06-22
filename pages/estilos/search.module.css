@@ -197,5 +197,7 @@
     background: #ff9800;
     padding: 8px 30px;
     border-radius: 2px;
-
+}
+.playerSingle {
+    margin: 0 auto;
 }

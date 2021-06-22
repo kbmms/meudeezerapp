@@ -47,7 +47,7 @@ export default function MusicSingle(){
                         <h1>{mysingle.album.title}</h1>
                         <img src={mysingle.album.cover_big} alt="" />
                         <h4>{mysingle.title}</h4>
-                        <ReactAudioPlayer controls src={mysingle.preview} />
+                        <ReactAudioPlayer className={styles.playerSingle} controls src={mysingle.preview} />
                         
                        
                     </div>):
